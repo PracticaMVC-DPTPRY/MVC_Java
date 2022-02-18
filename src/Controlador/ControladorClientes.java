@@ -56,6 +56,14 @@ public void limpiar(){
     _view.txtCiudad.setText(null);
     _view.txtDepartamento.setText(null);
     _view.txtEmail.setText(null);
+    
+    _view.txtTel_Residencial.setText(null);
+    _view.txtTel_Trabajo.setText(null);
+    _view.txtNum_Factura.setText(null);
+    _view.txtFecha_Credito.setText(null);
+    _view.txtTipo_Cartera.setText(null);
+    _view.txtValor_Credito.setText(null);
+    _view.txtNum_Cuotas.setText(null);
 
 }
 }
