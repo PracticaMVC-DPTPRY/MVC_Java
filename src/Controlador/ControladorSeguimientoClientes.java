@@ -49,7 +49,14 @@ _view.setTitle("MVC_Visual");
 }
 public void limpiar(){
     
-    
+       _view.txtTel_Residencial.setText(null);
+       _view.txtTel_Trabajo.setText(null);
+       _view.txtNum_Factura.setText(null); 
+       _view.txtTipo_Cartera.setText(null);
+       _view.txtFecha_Mora.setText(null);
+       _view.txtDias_Mora.setText(null);
+       _view.txtVal_Mora.setText(null);
+       _view.txtV_Seguro.setText(null);
        _view.txtInteres_Mora.setText(null);
        _view.txtSald_Restante.setText(null);
        _view.txtTipo_Cobro.setText(null);
