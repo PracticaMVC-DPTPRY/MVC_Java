@@ -49,6 +49,18 @@ _view.setTitle("MVC_Visual");
 }
 public void limpiar(){
     
+    
+       _view.txtInteres_Mora.setText(null);
+       _view.txtSald_Restante.setText(null);
+       _view.txtTipo_Cobro.setText(null);
+       _view.txtFecha_Acuerdo_Uno.setText(null);
+       _view.txtAcuerdo_Uno.setText(null);
+       _view.txtFecha_Acuerdo_Dos.setText(null);
+       _view.txtAcuerdo_Dos.setText(null);
+       _view.txtFecha_Acuerdo_Tres.setText(null);
+       _view.txtAcuerdo_Tres.setText(null);
+       _view.txtFecha_Acuerdo_Cuatro.setText(null);
+       _view.txtAcuerdo_Cuatro.setText(null);
 
 }
 }

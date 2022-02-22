@@ -26,16 +26,127 @@
           <Group type="102" attributes="0">
               <EmptySpace min="-2" pref="312" max="-2" attributes="0"/>
               <Component id="cmdAlta" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="391" max="32767" attributes="0"/>
               <Component id="cmdEliminar" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="323" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel49" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="80" max="32767" attributes="0"/>
+              <Component id="txtCedula" min="-2" pref="190" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+              <Component id="jLabel38" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="79" max="32767" attributes="0"/>
+              <Component id="txtTel_Residencia" min="-2" pref="190" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel27" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel26" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel25" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel24" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel23" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel22" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel21" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel20" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel18" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel17" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="64" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtInteres_Mora" alignment="1" min="-2" pref="190" max="-2" attributes="0"/>
+                  <Component id="txtFecha_Acuerdo_Dos" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                  <Component id="txtAcuerdo_Uno" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                  <Component id="txtFecha_Acuerdo_Uno" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                  <Component id="txtTipo_Cobro" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                  <Component id="txtSald_Restante" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                  <Component id="txtAcuerdo_Dos" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                  <Component id="txtAcuerdo_Cuatro" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                  <Component id="txtFecha_Acuerdo_Cuatro" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                  <Component id="txtAcuerdo_Tres" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                  <Component id="txtFecha_Acuerdo_Tres" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="685" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtInteres_Mora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtSald_Restante" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtTipo_Cobro" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtFecha_Acuerdo_Uno" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtAcuerdo_Uno" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtFecha_Acuerdo_Dos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtAcuerdo_Dos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtFecha_Acuerdo_Tres" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtAcuerdo_Tres" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel26" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtFecha_Acuerdo_Cuatro" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtAcuerdo_Cuatro" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel49" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCedula" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel38" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtTel_Residencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="302" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="45" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="cmdAlta" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="cmdEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -73,6 +184,136 @@
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtInteres_Mora">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSald_Restante">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTipo_Cobro">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFecha_Acuerdo_Uno">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAcuerdo_Uno">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFecha_Acuerdo_Dos">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Inter&#xe9;s Mora"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAcuerdo_Dos">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Saldo Restante"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFecha_Acuerdo_Tres">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel19">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo de Cobro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAcuerdo_Tres">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fecha acuerdo 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFecha_Acuerdo_Cuatro">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Acuerdo 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAcuerdo_Cuatro">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fecha acuerdo 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel23">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Acuerdo 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel24">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fecha acuerdo 3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel25">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Acuerdo 3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel26">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fecha acuerdo 4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel27">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Acuerdo 4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTel_Residencia">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel38">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Telefono Residencia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCedula">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel49">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cedula"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
