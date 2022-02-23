@@ -130,6 +130,7 @@
                           <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="txtFecha_Acuerdo_Dos" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="txtFecha_Mora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -158,8 +159,6 @@
                           <Component id="jLabel31" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="txtTipo_Cartera" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                      <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>

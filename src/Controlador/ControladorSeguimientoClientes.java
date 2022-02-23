@@ -33,8 +33,9 @@ public void actionPerformed(ActionEvent e) {
         String leyenda="";//esta variable servirá para atrapar los errores sql
 
         if (e.getSource()==_view.cmdAlta){ //Si el botón presionado fue el de alta
-         // System.out.print("paso");
-        //////////leyenda=_model.registrarAlta("tbusuarios"," null, ' " +_view.txtNombre.getText()+" ',' " +_view.txtUsuario.getText() +" ', "+_view.txtpsw.getText() );
+        leyenda=_model.registrarAlta("seguimiento_clientes","null,"+"null,"+"null,"+"null,"+"null,"+"null,"+"null,"+"null,"+"null,"
+                +_view.txtTel_Residencial.getText()+","+_view.txtTel_Trabajo.getText()+","+_view.txtNum_Factura.getText()+",'"+_view.txtTipo_Cartera.getText()+"','"+_view.txtFecha_Mora.getText()+"',"+_view.txtDias_Mora.getText()+","+_view.txtVal_Mora.getText()+","+_view.txtV_Seguro.getText()
+                +","+_view.txtInteres_Mora.getText()+","+_view.txtSald_Restante.getText()+",'"+_view.txtTipo_Cobro.getText()+"','"+_view.txtFecha_Acuerdo_Uno.getText() +"','"+_view.txtAcuerdo_Uno.getText()+"','"+_view.txtFecha_Acuerdo_Dos.getText()+"','"+_view.txtAcuerdo_Dos.getText()+"','"+_view.txtFecha_Acuerdo_Tres.getText()+"','"+_view.txtAcuerdo_Tres.getText()+"','"+_view.txtFecha_Acuerdo_Cuatro.getText()+"','"+_view.txtAcuerdo_Cuatro.getText()+"'");
         //Se puede usar una variable o el control, lo ideal es que se pudiera llamar una función de
        // validación aquí sobre los datos obteindos de las cajas de texto
        System.out.print (leyenda);
@@ -45,7 +46,7 @@ public void actionPerformed(ActionEvent e) {
 }
 }
 public void iniciar(){
-_view.setTitle("MVC_Visual");
+_view.setTitle("Seguimiento clientes");
 }
 public void limpiar(){
     
