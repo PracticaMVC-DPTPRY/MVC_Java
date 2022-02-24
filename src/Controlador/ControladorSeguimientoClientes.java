@@ -49,7 +49,13 @@ public void iniciar(){
 _view.setTitle("Seguimiento clientes");
 }
 public void limpiar(){
-    
+       _view.txtLugar_Expedicion.setText(null);
+       _view.txtNombre_Completo.setText(null);
+       _view.txtProfesion.setText(null);
+       _view.txtDireccion_Residencial.setText(null);
+       _view.txtCiudad.setText(null);
+       _view.txtDepartamento.setText(null);
+       _view.txtEmail.setText(null);
        _view.txtTel_Residencial.setText(null);
        _view.txtTel_Trabajo.setText(null);
        _view.txtNum_Factura.setText(null); 
