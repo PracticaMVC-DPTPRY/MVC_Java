@@ -5,6 +5,9 @@
  */
 package Vista;
 
+import java.awt.Image;
+import java.awt.Toolkit;
+
 /**
  *
  * @author Daniel Xithe
@@ -16,6 +19,14 @@ public class FrmSeguimientoClientes extends javax.swing.JFrame {
      */
     public FrmSeguimientoClientes() {
         initComponents();
+        setIconImage(getIconImage());
+    }
+    
+    //Icono del JFrame
+    @Override
+    public Image getIconImage (){
+        Image retValue = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("Image/UPP.png"));
+        return retValue;
     }
 
     /**
